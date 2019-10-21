@@ -1,0 +1,6 @@
+chef_license     'accept'
+log_level        :info
+log_location     STDOUT
+chef_server_url  'https://api.chef.io/organizations/<add your org here>'
+client_key       '/etc/chef/client.pem'
+node_name        '<node name here>'
